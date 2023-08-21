@@ -3,64 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>webpage1</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/studycss.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <header>
-    <img src="./img/logo.svg" alt="logo">
-      <p>BuhOne</p>
+  <header class="header">
+    <img class="header-img" src="./img/logo.svg" alt="logo">
+      <p class="header-title">BuhOne</p>
       <ul>
           <li>
-              <a href="tel:81112223344">
+              <a class="header-contact-link" href="tel:81112223344">
                   <img src="./img/Group%20(1).svg" alt="phone">
-                  <span>8 (111) 222-33-44</span>
+                  <span class="header-contact-text">8 (111) 222-33-44</span>
               </a>
 
           </li>
           <li>
               <img src="./img/Frame%20(2).svg" alt="clock">
-              <span>Пн-Пт 10:00-18:00</span>
+              <span class="header-contact-text">Пн-Пт 10:00-18:00</span>
           </li>
           <li>
-              <a href="mailto:order@buhone.ua">
+              <a class="header-contact-link" href="mailto:order@buhone.ua">
               <img src="./img/Frame%20(3).svg" alt="envelope_blue">
-              <span>order@buhone.ua</span>
+              <span class="header-contact-text">order@buhone.ua</span>
               </a>
           </li>
           <li>
               <img src="./img/placeholder.svg" alt="">
-              <span>Паладина пр. 130</span>
+              <span class="header-contact-text">Паладина пр. 130</span>
           </li>
       </ul>
       <nav>
           <ul>
-              <li><a href="">Главная</a></li>
-              <li><a href="">услуги</a></li>
-              <li><a href="">кейсы</a></li>
-              <li><a href="">о компании</a></li>
-              <li><a href="">контакты</a></li>
+              <li><a class="header-nav-link" href="">Главная</a></li>
+              <li><a class="header-nav-link" href="">услуги</a></li>
+              <li><a class="header-nav-link" href="">кейсы</a></li>
+              <li><a class="header-nav-link" href="">о компании</a></li>
+              <li><a class="header-nav-link" href="">контакты</a></li>
           </ul>
       </nav>
   </header>
   <main>
-      <section>
-          <h1>Бухгалтерские услуги в Киеве</h1>
-          <a href="#">Наша презентация</a>
+      <section class="desc">
+          <h1 class="desc-title">Бухгалтерские услуги в Киеве</h1>
+          <a class="desc-link" href="#">Наша презентация</a>
       </section>
-      <section>
-          <h2>Наши услуги</h2>
-          <p>Мы специализируемся</p>
-          <ul>
-              <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-              <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-              <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-              <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-              <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-              <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
+      <section class="services">
+          <h2 class="section-title">Наши услуги</h2>
+          <p class="section-subtitle">Мы специализируемся</p>
+          <ul class="service-list">
+              <li><a href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+              <li><a href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+              <li><a href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+              <li><a href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+              <li><a href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+              <li><a href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
           </ul>
       </section>
       <section>
-          <h2>О нас</h2>
-          <h3>Компания ВанькаВстанькаПром</h3>
+          <h2 class="section-title">О нас</h2>
+          <p class="section-subtitle">Компания ВанькаВстанькаПром</p>
           <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
           <ul>
               <li><h3>90</h3><p>Завершено крупных сделок</p><a href="#">Все кейсы</a></li>
@@ -70,22 +72,22 @@
           </ul>
       </section>
       <section>
-          <h2>Наши клиенты</h2>
-          <p>С нами работают</p>
+          <h2 class="section-title">Наши клиенты</h2>
+          <p class="section-subtitle"> С нами работают</p>
           <ul>
-              <li><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></li>
-              <li><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></li>
-              <li><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></li>
-              <li><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></li>
-              <li><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></li>
-              <li><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></li>
-              <li><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></li>
-              <li><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></li>
+              <li><a href="#"><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></a></li>
+              <li><a href="#"><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></a></li>
+              <li><a href="#"><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></a></li>
+              <li><a href="#"><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></a></li>
+              <li><a href="#"><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></a></li>
+              <li><a href="#"><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></a></li>
+              <li><a href="#"><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></a></li>
+              <li><a href="#"><img src="./img/Rectangle%202%20(1).png" alt="Microsoft"></a></li>
           </ul>
       </section>
       <section>
-          <h2>Отзывы</h2>
-          <p>Ваши благодарности</p>
+          <h2 class="section-title">Отзывы</h2>
+          <p class="section-subtitle">Ваши благодарности</p>
           <button type="button">Оставить отзыв</button>
           <ul>
               <li>
@@ -129,8 +131,8 @@
           <button type="button"><img src="./img/Rectangle%203.1.svg" alt="arrow-right"></button>
       </section>
       <section>
-          <h2>Наши преимущетсва</h2>
-          <p>Мы предлагаем</p>
+          <h2 class="section-title">Наши преимущетсва</h2>
+          <p class="section-subtitle">Мы предлагаем</p>
           <ul>
               <li><img src="./img/quality-svgrepo-com%201.png" alt=""><p>Качество</p></li>
               <li><img src="./img/speed-svgrepo-com%201.png" alt=""><p>Оперативность</p></li>
