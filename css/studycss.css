@@ -46,7 +46,28 @@ body{
     color: #333;
 }
 
+.service-item-link{
+    background-image: url("../img/Rectangle 2.jpg");
+    text-decoration: none;
+}
+
 .service-item-title{
     color: #FFF;
 
+}
+
+.review-button{
+    color: #FFFFFF;
+}
+
+.review-item-text{
+    color: #000000;
+}
+
+.review-item-author{
+    color: #000000;
+}
+
+.review-item-position{
+    color: #EBEBEB;
 }
