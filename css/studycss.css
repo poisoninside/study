@@ -1,13 +1,28 @@
 body{
     color: #000000;
+    font-family: 'lato', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 24.84px */
+
+
+
 }
 
 .header-title{
     color: #005FA3;
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 138.27%; /* 49.777px */
 }
 
 .header-contact-text{
     color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 132%; /* 17.16px */
 }
 
 .header-contact-link{
@@ -18,6 +33,8 @@ body{
     text-decoration: none;
     color: #222222;
     text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .desc{
@@ -28,10 +45,21 @@ body{
 .desc-title, .desc-link {
     color: #FFF;
 
+    /* h1 */
+    font-family: Merriweather, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138.27%; /* 66.37px */
+    
+
 }
 
 .desc-link{
     text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 138%; /* 34.5px */
 }
 
 .services{
@@ -40,24 +68,40 @@ body{
 
 .section-title{
     color: #BDBDBD;
+
+    /* h2 */
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 138%; /* 33.12px */
 }
 
 .section-subtitle{
     color: #333;
+    font-family: Merriweather, serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 144.555%; /* 69.386px */
 }
 
 .service-item-link{
     background-image: url("../img/Rectangle 2.jpg");
     text-decoration: none;
+
 }
 
 .service-item-title{
     color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 126%; /* 30.24px */
 
 }
 
 .review-button{
     color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+
 }
 
 .review-item-text{
@@ -66,8 +110,12 @@ body{
 
 .review-item-author{
     color: #000000;
+    font-weight: 900;
 }
 
 .review-item-position{
-    color: #EBEBEB;
+    color: #4F4F4F;
+    font-size: 14px;
+    font-weight: 400;
+
 }
