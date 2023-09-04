@@ -68,6 +68,7 @@ body{
 
 .section-title{
     color: #BDBDBD;
+    font-family: Lato, serif;
 
     /* h2 */
     font-size: 24px;
@@ -118,4 +119,100 @@ body{
     font-size: 14px;
     font-weight: 400;
 
+}
+
+.company{
+    background: #F9F9F9;
+}
+
+.section-subtitle-company{
+    color: #333;
+    font-family: Merriweather, serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 144.555%; /* 69.386px */
+}
+
+.section-subtitle-company-name{
+    color:  #005FA3;
+    font-family: Merriweather, serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 144.555%;
+}
+
+.section-text{
+    color: #000;
+    font-family: Lato, serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 138%; /* 24.84px */
+}
+
+.section-list-number{
+    color: #000;
+    font-family: Lato, serif;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 5.5px;
+}
+
+.section-list-text{
+    color: #000;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 132%; /* 18.48px */
+}
+
+.section-list-case{
+    color:  #005FA3;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.advantages{
+    color: #000;
+    font-family: Lato, serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 132%; /* 47.52px */
+}
+
+.connection{
+    color:  #FFF;
+    font-family: Merriweather, serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 144.555%; /* 69.386px */
+}
+
+.question{
+    color: #FFF;
+    font-family: Lato, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 24.84px */
+}
+
+.contact-inform{
+    color:  #FFF;
+    font-family: Lato, serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 28.98px */
+}
+
+.bottom-part{
+    color: #000;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 138%; /* 19.32px */
 }
