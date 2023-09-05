@@ -60,6 +60,7 @@ body{
     font-size: 25px;
     font-weight: 400;
     line-height: 138%; /* 34.5px */
+    background: #005FA3;
 }
 
 .services{
@@ -102,7 +103,16 @@ body{
     color: #FFFFFF;
     text-align: center;
     font-weight: 400;
+    font-family: inherit;
+    font-size: inherit;
+    font-height: inherit;
+    background:  #005FA3;
+    border: none;
 
+}
+
+.review-item{
+    background: #EBEBEB;
 }
 
 .review-item-text{
@@ -149,6 +159,10 @@ body{
     line-height: 138%; /* 24.84px */
 }
 
+.about-item{
+    background: #EBEBEB;
+}
+
 .section-list-number{
     color: #000;
     font-family: Lato, serif;
@@ -190,6 +204,12 @@ body{
     line-height: 144.555%; /* 69.386px */
 }
 
+.desc-footer{
+    background-color: #161616;
+    background-image: url(../img/Rectangle.png);
+
+}
+
 .question{
     color: #FFF;
     font-family: Lato, serif;
@@ -206,6 +226,19 @@ body{
     font-style: normal;
     font-weight: 300;
     line-height: 138%; /* 28.98px */
+
+}
+
+.button{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138%; /* 24.84px */
+    background: #005FA3;
+    border: none;
 }
 
 .bottom-part{
@@ -216,3 +249,4 @@ body{
     font-weight: 300;
     line-height: 138%; /* 19.32px */
 }
+
