@@ -15,6 +15,10 @@ body{
     margin: 0 auto;
 }
 
+.display-none{
+    display: none;
+}
+
 .header{
     padding: 23px 0 31px 0;
 }
@@ -83,6 +87,7 @@ body{
 
 .services{
     background-color: #EBEBEB;
+    padding: 140px 0;
 }
 
 .section-title{
@@ -103,9 +108,18 @@ body{
     line-height: 144.555%; /* 69.386px */
 }
 
+.section-subtitle{
+    margin: 0 0 102px;
+}
+
 .service-item-link{
-    background-image: url("../img/Rectangle 2.jpg");
+    background-image: url("../img/Rectangle 2 13131313.png");
     text-decoration: none;
+    width: 350px;
+    min-height: 360px;
+    display: block;
+    padding: 45px;
+    background-size: cover;
 
 }
 
@@ -127,14 +141,46 @@ body{
     background:  #005FA3;
     border: none;
 
+    width: 270px;
+    min-height: 60px;
+
+}
+
+.review-slider-button{
+    width: 10px;
+    height: 10px;
+    background-color: #005FA3;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    opacity: 0.4;
+
+}
+
+
+
+.review-slider-arrow{
+    width: 60px;
+    height: 60px;
+    background-color: #005FA3;
+    border: 0;
+    padding: 0;
+
+
+}
+.review-slider-button-active{
+    opacity: 1;
+
 }
 
 .review-item{
     background: #EBEBEB;
+    padding: 45px 95px;
 }
 
 .review-item-text{
     color: #000000;
+    margin: 0 0 58px;
 }
 
 .review-item-author{
@@ -257,6 +303,10 @@ body{
     line-height: 138%; /* 24.84px */
     background: #005FA3;
     border: none;
+}
+
+.review{
+    padding: 174px 0  120px ;
 }
 
 .bottom-part{
