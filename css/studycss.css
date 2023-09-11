@@ -15,6 +15,19 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+
+}
+
+.half-width{
+    width: 50%;
+}
+
+.wrp-padding{
+    padding: 0 0 0 15px;
+}
+
 .display-none{
     display: none;
 }
@@ -80,15 +93,19 @@ body{
     font-weight: 400;
     line-height: 138%; /* 34.5px */
     background: #005FA3;
-    display: block;
     width: 333px;
     min-height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services{
-    background-color: #EBEBEB;
+
     padding: 140px 0;
 }
+
+
 
 .section-title{
     color: #BDBDBD;
@@ -98,6 +115,7 @@ body{
     font-size: 24px;
     font-weight: 900;
     line-height: 138%; /* 33.12px */
+
 }
 
 .section-subtitle{
@@ -106,10 +124,18 @@ body{
     font-size: 48px;
     font-weight: 900;
     line-height: 144.555%; /* 69.386px */
+    margin: 48px 0 43px;
 }
 
-.section-subtitle{
-    margin: 0 0 102px;
+.section-subtitle-inform{
+    margin: 40px 0 60px;
+}
+
+
+
+.clients{
+    background-color: #EBEBEB;
+    padding: 85px 0 92px;
 }
 
 .service-item-link{
@@ -117,9 +143,10 @@ body{
     text-decoration: none;
     width: 350px;
     min-height: 360px;
-    display: block;
+    display: flex;
     padding: 45px;
     background-size: cover;
+    align-items: flex-end;
 
 }
 
@@ -197,6 +224,7 @@ body{
 
 .company{
     background: #F9F9F9;
+    padding: 140px 0;
 }
 
 .section-subtitle-company{
@@ -221,10 +249,25 @@ body{
     font-size: 18px;
     font-weight: 300;
     line-height: 138%; /* 24.84px */
+    width: 445px;
 }
 
 .about-item{
     background: #EBEBEB;
+    width: 255px;
+    min-height: 255px;
+    padding: 30px 40px 40px;
+    box-sizing: border-box;
+}
+
+.about-item:nth-of-type(n+3){
+    margin: 30px 0 0 0;
+}
+
+.about-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .section-list-number{
@@ -241,6 +284,7 @@ body{
     font-size: 14px;
     font-weight: 700;
     line-height: 132%; /* 18.48px */
+    padding: 30px 0 47px;
 }
 
 .section-list-case{
@@ -251,12 +295,21 @@ body{
     text-decoration-line: underline;
 }
 
+.advantage{
+    background-color: #EBEBEB;
+    padding: 102px 0 115px;
+}
+
 .advantages{
     color: #000;
     font-family: Lato, serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 132%; /* 47.52px */
+}
+
+.advantages-subtitle{
+    margin: 40px 0 103px;
 }
 
 .connection{
@@ -266,12 +319,17 @@ body{
     font-style: normal;
     font-weight: 900;
     line-height: 144.555%; /* 69.386px */
+
 }
 
 .desc-footer{
     background-color: #161616;
     background-image: url(../img/Rectangle.png);
 
+}
+
+.footer-wrp{
+    padding: 122px 0 140px;
 }
 
 .question{
@@ -281,6 +339,7 @@ body{
     font-style: normal;
     font-weight: 300;
     line-height: 138%; /* 24.84px */
+    margin: 60px 0 80px;
 }
 
 .contact-inform{
@@ -318,3 +377,8 @@ body{
     line-height: 138%; /* 19.32px */
 }
 
+.footer-company{
+    background: #F9F9F9;
+    padding: 50px 0;
+
+}
