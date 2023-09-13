@@ -101,8 +101,18 @@ body{
 }
 
 .services{
-
+    background: #EBEBEB;
     padding: 140px 0;
+}
+
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-item:nth-of-type(n+4){
+    margin: 30px 0 0;
 }
 
 
@@ -124,7 +134,7 @@ body{
     font-size: 48px;
     font-weight: 900;
     line-height: 144.555%; /* 69.386px */
-    margin: 48px 0 43px;
+    margin: 48px 0 102px;
 }
 
 .section-subtitle-inform{
@@ -138,14 +148,21 @@ body{
     padding: 85px 0 92px;
 }
 
+.clients-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .service-item-link{
     background-image: url("../img/Rectangle 2 13131313.png");
+    background-size: cover;
     text-decoration: none;
     width: 350px;
     min-height: 360px;
     display: flex;
     padding: 45px;
-    background-size: cover;
+    box-sizing: border-box;
     align-items: flex-end;
 
 }
@@ -275,7 +292,10 @@ body{
     font-family: Lato, serif;
     font-size: 55px;
     font-weight: 900;
-    letter-spacing: 5.5px;
+    letter-spacing: 6px;
+    width: 75px;
+    min-height: 54px;
+
 }
 
 .section-list-text{
@@ -284,7 +304,8 @@ body{
     font-size: 14px;
     font-weight: 700;
     line-height: 132%; /* 18.48px */
-    padding: 30px 0 47px;
+    margin: 30px 0 0 0;
+
 }
 
 .section-list-case{
@@ -293,11 +314,28 @@ body{
     font-size: 14px;
     font-weight: 700;
     text-decoration-line: underline;
+    display: block;
+    margin: 47px 0 0 0 ;
 }
 
 .advantage{
     background-color: #EBEBEB;
     padding: 102px 0 115px;
+}
+
+.advantage-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage-item{
+    width: 348px;
+    min-height: 316px;
+    padding: 80px 0 37px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
 }
 
 .advantages{
@@ -309,7 +347,7 @@ body{
 }
 
 .advantages-subtitle{
-    margin: 40px 0 103px;
+    margin: 40px 0 27px;
 }
 
 .connection{
@@ -340,6 +378,10 @@ body{
     font-weight: 300;
     line-height: 138%; /* 24.84px */
     margin: 60px 0 80px;
+    letter-spacing: 0.6px;
+
+    width: 445px;
+    min-height: 43px;
 }
 
 .contact-inform{
@@ -381,4 +423,9 @@ body{
     background: #F9F9F9;
     padding: 50px 0;
 
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
 }
