@@ -164,15 +164,15 @@
                       <p class="question">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
                       <ul class="flex">
                           <li>
-                              <a href="tel:81112223344">
-                                  <img src="./img/telephone-svgrepo-com%201%20(1).png" alt="phone">
+                              <a class="contact-margin" href="tel:81112223344">
+                                  <img class="img-contact" src="./img/telephone-svgrepo-com%201%20(1).png" alt="phone">
                                   <span class="contact-inform">+7 (111) 222-33-44</span>
                               </a>
 
                           </li>
                           <li>
-                              <a href="mailto:order@buhone.ua">
-                                  <img src="./img/Frame.png" alt="envelope">
+                              <a class="contact-margin" href="mailto:order@buhone.ua">
+                                  <img class="img-mail" src="./img/Frame.png" alt="envelope">
                                   <span class="contact-inform">order@buhone.ua</span>
                               </a>
                           </li>
@@ -180,7 +180,7 @@
                   </div>
                   <div class="half-width wrp-padding">
                       <form action="#">
-                          <div class="form-contact-wrp">
+                          <div class="form-row-wrp">
                               <label>
                                   <span class="input-label">Имя</span>
                                   <input type="text" placeholder="Антон">
@@ -194,7 +194,7 @@
                                 <span class="input-label">Сообщение</span>
                                 <textarea placeholder="Ваше сообщение"></textarea>
                             </label>
-                            <button class="button" type="submit">Отправить сообщение</button>
+                            <button class="button form-button" type="submit">Отправить сообщение</button>
                       </form>
                   </div>
           </div>
@@ -206,8 +206,40 @@
           </div>
       </div>
   </footer>
-    <div>
-    попап
+    <div class="popup">
+        <h2 class="section-subtitle">Оставить отзыв</h2>
+        <form action="#">
+            <div class="form-row-wrp">
+                <label>
+                    <span class="input-label">Имя</span>
+                    <input type="text" placeholder="Антон">
+                </label>
+                <label>
+                    <span class="input-label">Фамилия</span>
+                    <input type="text" placeholder="Пупкин">
+                </label>
+            </div>
+            <div class="form-row-wrp">
+                <label>
+                    <span class="input-label">Email</span>
+                    <input type="email" placeholder="Email">
+                </label>
+                <fieldset>
+                    <legend>Все понравилось</legend>
+                    <input type="radio" id="like-yes" name="like" value="yes">
+                    <label for="like-yes">да</label>
+
+                    <input type="radio" id="like-no" name="like" value="no">
+                    <label for="like-no">нет</label>
+                </fieldset>
+            </div>
+            <label>
+                <span class="input-label">Отзыв</span>
+                <textarea placeholder="Отзыв"></textarea>
+            </label>
+            <button class="button form-button" type="submit">Оставить отзыв</button>
+        </form>
+    
     </div>
 </body>
 </html>
